@@ -1,0 +1,29 @@
+.hero {
+  text-align: center;
+}
+
+.hero__title {
+  @include font(900, 44px, 1.36, 0.06em);
+  color: var(--white-color);
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.hero__button {
+  @include font(700, 16px, 1.9, 0.06em);
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: 'roboto', sans-serif;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 200px;
+  margin-top: 30px;
+}
